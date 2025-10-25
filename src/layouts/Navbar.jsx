@@ -34,7 +34,7 @@ const Navbar = () => {
     { name: "Home", icon: <Home size={18} />, link: "/" },
     { name: "About", icon: <Info size={18} />, link: "/about" },
     { name: "Services", icon: <Briefcase size={18} />, link: "/services" },
-    { name: "Contact", icon: <Phone size={18} />, link: "/contact" },
+    { name: "contact", icon: <Phone size={18} />, link: "/contact" },
   ];
 
   const toggleMenu = () => setIsOpen(!isOpen);

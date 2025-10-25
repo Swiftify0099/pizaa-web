@@ -49,31 +49,31 @@ const Footer = () => {
 
                     {/* Product Section */}
                     <div>
-                        <h3 className={`text-lg font-bold mb-3 ${mode === "light" ? "text-gray-900" : "text-white"}`}>Product</h3>
-                        <ul className="space-y-2 text-sm">
-                            <li><a href="#" className={`hover:underline ${mode === "light" ? "text-gray-900" : "text-gray-200"}`}>Features</a></li>
-                            <li><a href="#" className={`hover:underline ${mode === "light" ? "text-gray-900" : "text-gray-200"}`}>Pricing</a></li>
-                            <li><a href="#" className={`hover:underline ${mode === "light" ? "text-gray-900" : "text-gray-200"}`}>Roadmap</a></li>
+                        <h3 className={`text-lg font-bold mb-4 ${mode === "light" ? "text-gray-900" : "text-white"}`}>Product</h3>
+                        <ul className="space-y-3 text-sm">
+                            <li><a href="#" className={`transition-colors duration-300 hover:text-indigo-500 ${mode === "light" ? "text-gray-700" : "text-gray-300"}`}>Features</a></li>
+                            <li><a href="#" className={`transition-colors duration-300 hover:text-indigo-500 ${mode === "light" ? "text-gray-700" : "text-gray-300"}`}>Pricing</a></li>
+                            <li><a href="#" className={`transition-colors duration-300 hover:text-indigo-500 ${mode === "light" ? "text-gray-700" : "text-gray-300"}`}>Roadmap</a></li>
                         </ul>
                     </div>
 
                     {/* Company Section */}
                     <div>
-                        <h3 className={`text-lg font-bold mb-3 ${mode === "light" ? "text-gray-900" : "text-white"}`}>Company</h3>
-                        <ul className="space-y-2 text-sm">
-                            <li><a href="#" className={`hover:underline ${mode === "light" ? "text-gray-900" : "text-gray-200"}`}>About Us</a></li>
-                            <li><a href="#" className={`hover:underline ${mode === "light" ? "text-gray-900" : "text-gray-200"}`}>Careers</a></li>
-                            <li><a href="#" className={`hover:underline ${mode === "light" ? "text-gray-900" : "text-gray-200"}`}>Contact</a></li>
+                        <h3 className={`text-lg font-bold mb-4 ${mode === "light" ? "text-gray-900" : "text-white"}`}>Company</h3>
+                        <ul className="space-y-3 text-sm">
+                            <li><a href="#" className={`transition-colors duration-300 hover:text-indigo-500 ${mode === "light" ? "text-gray-700" : "text-gray-300"}`}>About Us</a></li>
+                            <li><a href="#" className={`transition-colors duration-300 hover:text-indigo-500 ${mode === "light" ? "text-gray-700" : "text-gray-300"}`}>Careers</a></li>
+                            <li><a href="#" className={`transition-colors duration-300 hover:text-indigo-500 ${mode === "light" ? "text-gray-700" : "text-gray-300"}`}>Contact</a></li>
                         </ul>
                     </div>
 
                     {/* Resources Section */}
                     <div>
-                        <h3 className={`text-lg font-bold mb-3 ${mode === "light" ? "text-gray-900" : "text-white"}`}>Resources</h3>
-                        <ul className="space-y-2 text-sm">
-                            <li><a href="#" className={`hover:underline ${mode === "light" ? "text-gray-900" : "text-gray-200"}`}>Docs</a></li>
-                            <li><a href="#" className={`hover:underline ${mode === "light" ? "text-gray-900" : "text-gray-200"}`}>Community</a></li>
-                            <li><a href="#" className={`hover:underline ${mode === "light" ? "text-gray-900" : "text-gray-200"}`}>Blog</a></li>
+                        <h3 className={`text-lg font-bold mb-4 ${mode === "light" ? "text-gray-900" : "text-white"}`}>Resources</h3>
+                        <ul className="space-y-3 text-sm">
+                            <li><a href="#" className={`transition-colors duration-300 hover:text-indigo-500 ${mode === "light" ? "text-gray-700" : "text-gray-300"}`}>Docs</a></li>
+                            <li><a href="#" className={`transition-colors duration-300 hover:text-indigo-500 ${mode === "light" ? "text-gray-700" : "text-gray-300"}`}>Community</a></li>
+                            <li><a href="#" className={`transition-colors duration-300 hover:text-indigo-500 ${mode === "light" ? "text-gray-700" : "text-gray-300"}`}>Blog</a></li>
                         </ul>
                     </div>
                 </div>
